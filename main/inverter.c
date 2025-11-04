@@ -20,7 +20,7 @@
 #define MCPWM_DUTY_TICKS                MCPWM_PERIOD_TICKS / 2
 #define MCPWM_DEAD_TICKS                (5) // 0,5us
 
-#define ADC_CHANNEL                     ADC_CHANNEL_6
+#define ADC_CHANNEL                     ADC_CHANNEL_6 // GPIO_NUM_34
 #define ADC_UNIT                        ADC_UNIT_1
 #define ADC_CONV_MODE                   ADC_CONV_SINGLE_UNIT_1
 #define ADC_ATTEN                       ADC_ATTEN_DB_12
